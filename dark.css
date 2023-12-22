@@ -1,2 +1,247 @@
-html {
+:root {
+  color-scheme: dark;
+  accent-color: var(--native-dark-accent-color);
+}
+
+html a:visited,
+html a:visited > *:not(svg) {
+  color: var(--native-dark-visited-link-color) !important;
+}
+
+a[ping]:link,
+a[ping]:link > *:not(svg),
+:link:not(cite) {
+  color: var(--native-dark-link-color) !important;
+}
+
+html cite,
+html cite a:link,
+html cite a:visited {
+  color: var(--native-dark-cite-color) !important;
+}
+
+img,
+image,
+figure:empty {
+  opacity: var(--native-dark-opacity) !important;
+  border-radius: 6px !important;
+}
+
+button[id="openModelFolderButton"] span span[class="ng-binding"],
+button[id="zoomToFitButton"] span[class="ng-binding"],
+#pathFilterPanel {
+  color: var(--native-dark-font-color) !important;
+}
+header,
+.app-header.navbar,
+.app-header.navbar,
+.navbar-brand {
+  border: none !important;
+}
+.navbar-brand {
+  margin-left: 10px !important;
+}
+.body {
+  background: linear-gradient(#1e1e2f, #1e1e24);
+}
+
+.main {
+  margin-left: 220px !important;
+}
+
+.app-body,
+.main,
+.breadcrumbt,
+#pathFilterPanel {
+  background: linear-gradient(#1e1e2f, #1e1e24) !important;
+}
+
+.breadcrumb.c-header.no-print {
+  box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+  padding-left: 30px !important;
+}
+
+.card,
+.modal-content {
+  border-color: #292929 !important;
+}
+
+.modal-content {
+  border-radius: 16px;
+}
+
+.shadow-bg {
+  box-shadow: none !important;
+}
+
+.card.shadow-bg.card-default,
+.card-header,
+html[native-dark-active] .card.bg-success {
+  background-color: #1e1e2f !important;
+  border-color: #1e1e2f !important;
+}
+
+.card-body.ng-scope,
+.card-body {
+  background: #27293d !important;
+  border-radius: 16px;
+}
+
+.sidebar-nav.ng-scope {
+  background: linear-gradient(0deg, #3358f4, #1d8cf8);
+  margin: 20px;
+  border-radius: 6px;
+}
+.sidebar-fixed .sidebar {
+  width: 240px !important;
+  background: transparent !important;
+}
+.nav-link:hover {
+  background: #3496fe !important;
+}
+footer {
+  display: none !important;
+}
+
+html[native-dark-active] .table td,
+html[native-dark-active] .table th {
+  background: #27293d !important;
+  padding-bottom: 20px !important;
+}
+html[native-dark-active] .table td {
+  padding: 10px !important;
+}
+tr {
+  border: none !important;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.btn {
+  font-weight: bold !important;
+}
+.btn-primary,
+.badge-primary,
+.badge-pill,
+.page-item.active > .page-link,
+.btn.btn-primary.shadow-bg {
+  background: #1d8cf8;
+  background-image: linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #1d8cf8;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  border: none !important;
+}
+.btn-secondary {
+  background: #e14eca !important;
+  background-image: linear-gradient(
+    to bottom left,
+    #e14eca,
+    #ba54f5,
+    #e14eca
+  ) !important;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #e14eca;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  border: none !important;
+}
+.btn-success {
+  background: #00e3b7 !important;
+  background-image: linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #00f2c3;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  border: none !important;
+}
+.btn-warning {
+  background: #ff8d72;
+  background-image: linear-gradient(to bottom left, #ff8d72, #ff6491, #ff8d72);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #ff8d72;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  border: none !important;
+}
+.btn-danger,
+.ui-button {
+  background: #fd5d93 !important;
+  background-image: linear-gradient(to bottom left, #fd5d93, #ec250d, #fd5d93);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #fd5d93;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+  border: none !important;
+}
+html[native-dark-active] .text-red.validation-invalid {
+  color: #fd5d93 !important;
+}
+
+.dropdown.form-inline.ng-scope {
+  border-color: hsla(0, 0%, 100%, 0.1) !important;
+  margin-left: 32px !important;
+}
+.dropdown-menu,
+.ui-dialog {
+  border: none !important;
+  background: linear-gradient(#222a42, #1d253b) !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.7) !important;
+}
+.form-control:disabled {
+  background: #344675 !important;
+}
+.ui-dialog-buttonpane {
+  border: none !important;
+  margin: 0 !important;
+}
+
+canvas {
+  background: #e0ddd7 !important;
+}
+
+.nav-link.ng-binding.active,
+.switch.switch-text.switch-primary > .switch-input:checked ~ .switch-label {
+  background: #1d8cf8 !important;
+  background-image: linear-gradient(
+    to bottom left,
+    #1d8cf8,
+    #3358f4,
+    #1d8cf8
+  ) !important;
+  border: none !important;
+}
+.card-header {
+  border: none !important;
+}
+.row,
+.card.ml-2,
+.card.mr-2 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+div.card-body.text-center.p-0 {
+  margin-right: 10px !important;
+}
+
+.progress {
+  background: #344675 !important;
+}
+.progress-bar {
+  background: #1d8cf8;
+  background-image: linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
 }
