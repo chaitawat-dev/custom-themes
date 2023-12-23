@@ -42,7 +42,7 @@ header,
   margin-left: 10px !important;
 }
 .body {
-  background: white;
+  background: #2f3349 !important;
 }
 
 .main {
@@ -53,13 +53,14 @@ header,
 .main,
 .breadcrumbt,
 #pathFilterPanel {
-  background: #f8f7fa !important;
+  background: #25293c !important;
 }
 
-.breadcrumb.c-header.no-print>li, .breadcrumb.c-header.no-print>li>a,
-.breadcrumb-menu>div>a,
-.breadcrumb-menu>div>a>i{
-  color: #5D596C !important;
+.breadcrumb.c-header.no-print > li,
+.breadcrumb.c-header.no-print > li > a,
+.breadcrumb-menu > div > a,
+.breadcrumb-menu > div > a > i {
+  color: #cfd3ec !important;
 }
 
 .breadcrumb.c-header.no-print {
@@ -71,7 +72,7 @@ header,
 
 .card,
 .modal-content {
-  border-color: white !important;
+  border-color: #2f3349 !important;
 }
 
 .modal-content {
@@ -82,37 +83,39 @@ header,
   box-shadow: none !important;
 }
 .card-header {
-  color: #5D596C !important;
+  color: #cfd3ec !important;
 }
 .card.shadow-bg.card-default,
 .card-header,
 html[native-dark-active] .card.bg-success {
-  background-color: #f8f7fa !important;
-  border-color: #f8f7fa !important;
-  color: #5D596C !important;
+  background-color: #25293c !important;
+  border-color: #25293c !important;
+  color: #cfd3ec !important;
 }
-.shadow-bg{
-    border-radius: 16px !important;
+.shadow-bg {
+  border-radius: 16px !important;
 }
 
 .card-body.ng-scope,
 .card-body {
-  background: white !important;
+  background: #2f3349 !important;
   border-radius: 16px !important;
-  box-shadow: 0 0.25rem 1.125rem rgba(75,70,92,.1);
+  box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
 }
 
-.sidebar .ng-scope{
-  width: 16.25rem !important
+.sidebar .ng-scope {
+  width: 16.25rem !important;
 }
-.sidebar .nav, .nav-item, .divider{
-  width: 16.25rem !important
+.sidebar .nav,
+.nav-item,
+.divider {
+  width: 16.25rem !important;
 }
 .sidebar-nav.ng-scope {
   margin: 0px;
-  padding-top: 20px!important;
+  padding-top: 20px !important;
   border-radius: 0px;
-  background-color: #242745 !important;
+  background-color: #161931 !important;
   color: #c9c8ce !important;
   width: 16.25rem !important;
 }
@@ -121,40 +124,53 @@ html[native-dark-active] .card.bg-success {
   background: transparent !important;
 }
 
-.nav-link, .nav-link.active, .nav-link:hover {
+.nav-link,
+.nav-link.active,
+.nav-link:hover {
   width: auto !important;
   border-radius: 0.375rem !important;
   margin: 0 0.875rem !important;
 }
 html[native-dark-active] .sidebar .nav-title,
-span>.nav-item.nav-link>i,span>.nav-item.nav-link,
-.nav-link>span, .nav-link.ng-scope>translate,
-.nav-link.ng-scope>span,
-.nav-link.nav-dropdown-toggle>span,
-.nav-link.nav-dropdown-toggle>i,
-.nav-link>i, .nav-link.ng-scope>i{
+span > .nav-item.nav-link > i,
+span > .nav-item.nav-link,
+.nav-link > span,
+.nav-link.ng-scope > translate,
+.nav-link.ng-scope > span,
+.nav-link.nav-dropdown-toggle > span,
+.nav-link.nav-dropdown-toggle > i,
+.nav-link > i,
+.nav-link.ng-scope > i {
   color: #c9c8ce !important;
 }
-.modeller-link.ng-binding, table, th, tr, td {
-  color: #5D596C !important;
+.modeller-link.ng-binding,
+table,
+th,
+tr,
+td {
+  color: #cfd3ec !important;
 }
-.nav-link.active>span,
-.nav-link.active>i{
-  color: #5D596C !important;
+.nav-link.active > span,
+.nav-link.active > i {
+  color: #cfd3ec !important;
 }
 .ng-empty {
-  background: white !important;
+  background: #2f3349 !important;
 }
-.nav-link .ng-binding{
-  color: #5D596C !important;
+.nav-link .ng-binding {
+  color: #cfd3ec !important;
 }
 .nav-link:hover {
   background: #eaeaea !important;
-  color: #5D596C !important;
+  color: #cfd3ec !important;
 }
 .nav-link.active {
-  background: linear-gradient(72.47deg, #7367f0 22.16%, rgba(115, 103, 240, 0.7) 76.47%) !important;
-  box-shadow: 0px 2px 6px 0px rgba(115,103,240,.48) !important;
+  background: linear-gradient(
+    72.47deg,
+    #7367f0 22.16%,
+    rgba(115, 103, 240, 0.7) 76.47%
+  ) !important;
+  box-shadow: 0px 2px 6px 0px rgba(115, 103, 240, 0.48) !important;
   color: #fff !important;
 }
 footer {
@@ -163,7 +179,7 @@ footer {
 
 html[native-dark-active] .table td,
 html[native-dark-active] .table th {
-  background: white!important;
+  background: #2f3349 !important;
   padding-bottom: 20px !important;
 }
 html[native-dark-active] .table td {
@@ -171,7 +187,7 @@ html[native-dark-active] .table td {
 }
 tr {
   border: none !important;
-  border-bottom: 1px solid white !important;
+  border-bottom: 1px solid #2f3349 !important;
   border-left: none !important;
   border-right: none !important;
 }
@@ -183,33 +199,33 @@ tr {
 .badge-pill,
 .page-item.active > .page-link,
 .btn.btn-primary.shadow-bg {
-    color: #fff!important;
-    background-color: #7367f0!important;
-    border-color: #7367f0!important;
-  box-shadow: 0 0.125rem 0.25rem rgba(165,163,174,.3) !important;
+  color: #fff !important;
+  background-color: #7367f0 !important;
+  border-color: #7367f0 !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
 }
 .btn-secondary {
-      color: #fff!important;
-    background-color: #a8aaae!important;
-    border-color: #a8aaae !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(165,163,174,.3)!important;
+  color: #fff !important;
+  background-color: #a8aaae !important;
+  border-color: #a8aaae !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
 }
 .btn-success {
-    color: #fff !important;
-    background-color: #28c76f !important;
-    border-color: #28c76f !important;
+  color: #fff !important;
+  background-color: #28c76f !important;
+  border-color: #28c76f !important;
 }
 .btn-warning {
-      color: #fff!important;
-    background-color: #ff9f43!important;
-    border-color: #ff9f43!important;
+  color: #fff !important;
+  background-color: #ff9f43 !important;
+  border-color: #ff9f43 !important;
 }
 .btn-danger,
 .ui-button {
-      color: #fff!important;
-    background-color: #ea5455 !important;
-    border-color: #ea5455 !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(165,163,174,.3) !important;
+  color: #fff !important;
+  background-color: #ea5455 !important;
+  border-color: #ea5455 !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
 }
 html[native-dark-active] .text-red.validation-invalid {
   color: #fd5d93 !important;
@@ -221,15 +237,27 @@ html[native-dark-active] .text-red.validation-invalid {
 }
 .dropdown-menu,
 .ui-dialog {
-  border-color: white !important;
-  background: white !important;
+  border-color: #2f3349 !important;
+  background: #2f3349 !important;
   border-radius: 0.375rem !important;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.3) !important;
 }
-.dropdown-header, .dropdown-item,
-#ui-view > div > main > div > ui-view > div > div > div.card-header.ng-binding > div > div > div > a {
-  border-color: white !important;
-  color: #5D596C !important;
+.dropdown-header,
+.dropdown-item,
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div.card-header.ng-binding
+  > div
+  > div
+  > div
+  > a {
+  border-color: #2f3349 !important;
+  color: #cfd3ec !important;
 }
 .form-control:disabled {
   background: #344675 !important;
@@ -246,7 +274,6 @@ canvas {
 .switch.switch-text.switch-primary > .switch-input:checked ~ .switch-label {
   background: #7367f0 !important;
   border: none !important;
-  color: white !important;
 }
 .card-header {
   border: none !important;
@@ -274,24 +301,58 @@ div.card-body.text-center.p-0 {
 
 #ui-view > header > form > div > input,
 #ui-view > header > form > div > button,
-#ui-view > header > div > project-context > div > div.tree-container > ngx-treeview > div.treeview-header > div.dropdown-divider{
+#ui-view
+  > header
+  > div
+  > project-context
+  > div
+  > div.tree-container
+  > ngx-treeview
+  > div.treeview-header
+  > div.dropdown-divider {
   border-color: #dbdade !important;
 }
 
-#ui-view > header > div > project-context > div > div.tree-container > ngx-treeview > div.treeview-header > div.row.row-filter > div > input {
+#ui-view
+  > header
+  > div
+  > project-context
+  > div
+  > div.tree-container
+  > ngx-treeview
+  > div.treeview-header
+  > div.row.row-filter
+  > div
+  > input {
   border-color: #dbdade !important;
   width: 90% !important;
 }
 
-#ui-view > header > div > project-context > div > div.tree-container > ngx-treeview > div.treeview-header > div.dropdown-divider{
-  margin: 10px!important;
-  margin-top: 20px!important;
+#ui-view
+  > header
+  > div
+  > project-context
+  > div
+  > div.tree-container
+  > ngx-treeview
+  > div.treeview-header
+  > div.dropdown-divider {
+  margin: 10px !important;
+  margin-top: 20px !important;
 }
 #ui-view > div > div > nav > ul > span > li > a:hover:not(.active),
 #ui-view > div > div > nav > ul > span > li.nav-item > a:hover:not(.active),
 #ui-view > div > div > nav > ul > li > a:hover,
-#ui-view > div > div > nav > ul > li.nav-item.nav-dropdown.open > ul > li > a:hover{
-  background:#2d3253!important;
+#ui-view
+  > div
+  > div
+  > nav
+  > ul
+  > li.nav-item.nav-dropdown.open
+  > ul
+  > li
+  > a:hover {
+  background: #2d3253 !important;
 }
 #ui-view > div > div > nav > ul > span > li > a.active,
 #ui-view > div > div > nav > ul > span > li > a.active > i,
@@ -300,28 +361,122 @@ div.card-body.text-center.p-0 {
 #ui-view > div > div > nav > ul > li > a.active > span,
 #ui-view > div > div > nav > ul > li > ul > li > a > i,
 #ui-view > div > div > nav > ul > li > ul > li > a > span {
-  color: white !important;
+  color: #fff !important;
 }
-#ui-view > div > main > div > ui-view > div > div > div > div > ul > li > .nav-link.active uib-tab-heading,
-#ui-view > div > main > div > ui-view > div > div > div > div > ul > li > .nav-link.active {
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li
+  > .nav-link.active
+  uib-tab-heading,
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li
+  > .nav-link.active {
   background-color: #7367f0 !important;
   color: #fff !important;
   border-color: #7367f0 !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(165,163,174,.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
 }
-#ui-view > div > main > div > ui-view > div > div > div > div > ul > li > .nav-link:hover {
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > ul
+  > li
+  > .nav-link:hover {
   border: none !important;
 }
 .tab-content {
   border: none !important;
 }
-#ui-view > div > main > div > ui-view > div > div > div > div > div > div.tab-pane.ng-scope.active > div > div > div.card-header{
-   background-color: transparent !important;
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div.tab-pane.ng-scope.active
+  > div
+  > div
+  > div.card-header {
+  background-color: transparent !important;
 }
 
-#ui-view > div > main > div > ui-view > div > div > div > div > div > div.tab-pane.ng-scope > div > div > div.card-body > table > tbody > tr,
-#ui-view > div > main > div > ui-view > div > div > div > div > div > div.tab-pane.ng-scope > div > div > div.card-body > table > tbody > tr > td,
-#ui-view > div > main > div > ui-view > div > div > div > div > div > div.tab-pane.ng-scope > div > div > div.card-body > table {
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div.tab-pane.ng-scope
+  > div
+  > div
+  > div.card-body
+  > table
+  > tbody
+  > tr,
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div.tab-pane.ng-scope
+  > div
+  > div
+  > div.card-body
+  > table
+  > tbody
+  > tr
+  > td,
+#ui-view
+  > div
+  > main
+  > div
+  > ui-view
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div.tab-pane.ng-scope
+  > div
+  > div
+  > div.card-body
+  > table {
   border: none !important;
   border-color: #fff !important;
 }
